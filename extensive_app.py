@@ -99,7 +99,6 @@ Given the database schema, here is the SQL query that [QUESTION]{input_text}[/QU
         temperature=0.5,
         stream=True,
     )
-    spinner = st.spinner("Generating SQL query...")
 
     expander = st.expander("SQL Query", expanded=True)
     with expander:
